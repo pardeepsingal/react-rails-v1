@@ -23,7 +23,7 @@ default: &default
 
 development:
   <<: *default
-  database: todo_development
+  database: d4nfv01gqspcam
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -80,7 +80,7 @@ test:
 #
 production:
   <<: *default
-  host: 127.0.0.1
-  database: todo_production
-  username: todo
-  password: <%= ENV['TODO_DATABASE_PASSWORD'] %>
+  host: ec2-54-225-237-84.compute-1.amazonaws.com
+  database: d4nfv01gqspcam
+  username: hvzzwyfyivnxiw
+  password: 456d4517ea2c2f6a14b228d1db5c1ece50ad0d0ea9b752b3702ed7b4540723da
